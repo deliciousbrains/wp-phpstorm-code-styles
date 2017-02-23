@@ -6,13 +6,13 @@ This is our own WordPress coding styles for PhpStorm, forked from the WordPress.
 ## Usage
 
 * Download the `DeliciousBrainsWordPress.xml` file. 
-* Copy it to `~/Library/Preferences/WebIde{xx}/codestyles` directory. 
+* Copy it to `~/Library/Preferences/<PRODUCT><VERSION>/codestyles` directory. For example `/Library/Preferences/PhpStorm2016.3/codestyles`. 
 * Once downloaded activate the scheme by selecting it in PHPStorm Preferences > Editor > Code Style.
 
 ## Development
 
 * Clone the repo.
-* Symlink the `DeliciousBrainsWordPress.xml` file in the code `~/Library/Preferences/WebIde{xx}/codestyles` directory:
+* Symlink the `DeliciousBrainsWordPress.xml` file in the code `~/Library/Preferences/<PRODUCT><VERSION>/codestyles` directory:
 
 	```
 	$ cd ~/Library/Preferences/WebIde90/codestyles
